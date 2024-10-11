@@ -3,6 +3,9 @@ import './landingPage.css';
 import '../../App.css';
 import bgImage from '../../assets/bg-img.png';
 import kenChar from '../../assets/ken.png';
+import igIcon from '../../assets/insta-icon.png';
+import linkedInIcon from '../../assets/linkedin-icon.png';
+import githubIcon from '../../assets/github-icon.png';
 
 const LandingPage = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -88,14 +91,16 @@ const LandingPage = () => {
               <p className="text-gray-400 mb-4 ml-8 text-justify">So far I have created various projects to improve my skills related to programming with various programming languages and tools.</p>
               <a href="#" className="text-white hover:underline ml-8">BROWSE PORTFOLIO   →</a>
             </div>
+
+            <div className="mt-8 ml-8 flex space-x-4">
+              <a href='https://www.instagram.com/kenny_geraldy/'><img src={igIcon} className='w-6' /></a>
+              <a href='https://www.linkedin.com/in/kenny-geraldy-chandra-255aaa202/'><img src={linkedInIcon} className='w-6' /></a>
+              <a href='https://github.com/kennygeraldy'><img src={githubIcon} className='w-6' /></a>
+          </div>
         </div>
        
           
-          {/* <div className="mt-8 flex space-x-4">
-            <a href="#" className="text-white hover:text-gray-300"><Instagram size={24} /></a>
-            <a href="#" className="text-white hover:text-gray-300"><Linkedin size={24} /></a>
-            <a href="#" className="text-white hover:text-gray-300"><Github size={24} /></a>
-          </div> */}
+        
       </div>
       </div>
     </div>
