@@ -1,5 +1,5 @@
 # Welcome onboard to Kenny's Odyssey
-This is my personal portfolio! This project is a showcase of my journey as a front-end developer, where I bring together modern web development technologies such as React, HTML, JavaScript, CSS, and Tailwind CSS to create an interactive and visually appealing user experience. Every component and animation has been thoughtfully crafted to reflect my passion for coding and attention to detail.
+This is my personal portfolio! This project is a showcase of my journey as a front-end developer, where I bring together modern web development technologies such as **React**, **HTML**, **JavaScript**, **CSS**, and **Tailwind CSS** to create an interactive and visually appealing user experience. Every component and animation has been thoughtfully crafted to reflect my passion for coding and attention to detail.
 
 The portfolio not only highlights my technical skills but also gives you a glimpse of the projects I've worked on, my professional background, and my growth as a developer. Dive in to explore my work, and feel free to connect through the various platforms linked on the page!
 
