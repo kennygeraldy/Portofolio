@@ -97,10 +97,28 @@ const LandingPage = () => {
         </div>
       
       {/* Second Screen */}
-      <div>
-      <h1 className="text-4xl font-bold mb-2 mt-8 text-white text-center">Programming</h1>
-      <h1 className="text-4xl font-bold mb-2 text-white text-center">Language,  Library, and Tools</h1>
-      <p className="text-gray-400 mb-4 ml-8 text-center">  Below are programming languages,library, and tools that i have learned on my journey</p>
+      <div className='min-h-screen p-20'>
+        <h1 className="text-4xl font-bold mb-2 mt-8 text-white text-center fade-in">Programming</h1>
+        <h1 className="text-4xl font-bold mb-2 text-white text-center fade-in">Language,  Library, and Tools</h1>
+        <p className="text-gray-400 mb-4 ml-8 text-center fade-in">  Below are programming languages,library, and tools that i have learned on my journey</p>
+
+        <div className='mt-20 flex gap-10 justify-center'>
+          <img src={assets.javaScriptIcon} alt="JavaScript icon" className='w-20 fade-in devIcon' />
+          <img src={assets.htmlIcon} alt="Html icon" className='w-20 fade-in devIcon' />
+          <img src={assets.cssIcon} alt="CSS icon" className='w-20 fade-in devIcon' />
+          <img src={assets.typeScriptIcon} alt="TypeScript icon" className='w-20 fade-in devIcon' />
+          <img src={assets.tailwindIcon} alt="tailwind icon" className='w-20 fade-in devIcon' />
+          <img src={assets.reactIcon} alt="react icon" className='w-20 fade-in devIcon' />
+          <img src={assets.gitlabIcon} alt="gitlab icon" className='w-20 fade-in devIcon' />
+        </div>
+        <div className='mt-8 flex gap-10 justify-center'>
+          <img src={assets.javaIcon} alt="JavaScript icon" className='w-20 fade-in devIcon' />
+          <img src={assets.angularIcon} alt="Html icon" className='w-20 fade-in devIcon' />
+          <img src={assets.mySqlIcon} alt="CSS icon" className='w-20 fade-in devIcon' />
+          <img src={assets.kotlinIcon} alt="TypeScript icon" className='w-20 fade-in devIcon' />
+          <img src={assets.pythonIcon} alt="tailwind icon" className='w-20 fade-in devIcon' />
+          <img src={assets.androidStudioIcon} alt="react icon" className='w-20 fade-in devIcon' />
+        </div>
       </div>
 
       </div>
