@@ -22,7 +22,7 @@ const assets = {
     htmlIcon: require('./assets/icons/dev-icons/html.png'),
     javaScriptIcon: require('./assets/icons/dev-icons/JavaScript.png'),
     cssIcon: require('./assets/icons/dev-icons/css.png'),
-    typeScriptIcon: require('./assets/icons/dev-icons/css.png'),
+    typeScriptIcon: require('./assets/icons/dev-icons/typeScript.png'),
     tailwindIcon: require('./assets/icons/dev-icons/tailwind.png'),
     reactIcon: require('./assets/icons/dev-icons/React.png'),
     gitlabIcon: require('./assets/icons/dev-icons/Git.png'),
